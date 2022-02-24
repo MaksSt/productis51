@@ -1,0 +1,191 @@
+<head>
+    <title>Инструкция</title>
+</head>
+
+<body>
+    <center>
+        <div class="wall">
+            <div class="header">
+                Инструкция по установке Manjaro
+            </div>
+            <div class="border1"></div>
+            <p class="pl">Шаг 1: получение ISO</p>
+            <h4>Мы заходим на сайт <a class="wa" href="https://manjaro.org/download/">Manjaro</a> и скачиваем образ</h4>
+            <img class="img1" src="img/img1.png">
+            <p class="pl">Шаг 2: запись ISO</p>
+            <h4>После того, как у нас есть ISO, нам нужно записать его на USB-накопитель.
+                Используйте флэш-диск 4GB или больше, чтобы избежать каких-либо хлопот.
+                Вы можете следовать руководству по
+                <a class="wa" href="https://itsfoss.com/create-live-usb-manjaro-linux/">
+                    как создать загрузочный USB Manjaro Linux
+                </a>,
+                я предпочитаю использовать программу
+                <a class="wa" href="https://sourceforge.net/projects/win32diskimager/">Win32DiskImager</a>
+            </h4>
+            <img class="img2" src="img/img2.png">
+            <p class="pl">Шаг 3: загрузка в живую среду</p>
+            <h4>После записи ISO-образа на диск мы можем загрузиться в среду установки Manjaro Live
+                Следуйте инструкциям производителя вашего ПК для загрузки с USB-накопителя.
+                После выбора диска Manjaro, вы увидите это меню, нажимайте
+                <g>Enter</g>
+            </h4>
+            <img class="img1" src="img/img3.png">
+            <p class="pl">Шаг 4: фактическая установка Manjaro Linux</p>
+            <h4>После запуска у вас откроектся приветсвенное окно где надо поменять язык в левом верхнем углу
+                и нажать <g>Запустить</g>
+            </h4>
+            <img class="img1" src="img/img4.png">
+            <h4>И мы попадаем в полноценный Установщик Manjaro Linux, где остаётся всего лишь нажать на
+                кнопку <g>Далее</g>
+            </h4>
+            <img class="img1" src="img/img5.png">
+            <h4>В следующем окне выбора вашего Местоположения ничего не меняем (если вы находитесь в другом часовом
+                поясе Мира, можете выбрать любой другой),
+                дальше жмём на <g>Далее</g>
+            </h4>
+            <img class="img1" src="img/img6.png">
+            <h4>В следующем окне настроек Клавиатуры, также ничего не меняем, а жмём на <g>Далее</g>
+            </h4>
+            <img class="img1" src="img/img7.png">
+            <h4>После чего попадаем в Разметчик дисков/носителей, где перечислены варианты разметки диска:
+                Поскольку я устанавливаю это на виртуальную машину, у меня нет опции «Установить рядом».
+                Однако, если вы устанавливаете на реальное физическое устройство, вы увидите четыре варианта.
+                Установите рядом с: Уменьшает пространство из раздела и устанавливает Manjaro в пространство рядом с
+                другой ОС. Идеально для начинающих.<br>
+                Заменить раздел: Заменяет выбранный раздел на Манджаро.<br>
+                Стереть диск: Стирает весь диск (включая Windows и его данные) и присваивает его Manjaro.<br>
+                Ручное разбиение: Выберите свою собственную схему разбиения. Вы должны по крайней мере выбрать раздел
+                EFI (/ boot / efi) и корневой (/) раздел<br>
+                После выбора того что вам нужно нажимайте на <g>Далее</g>
+            </h4>
+            <img class="img1" src="img/img8.png">
+            <h4>И теперь перед нами форма ввода наших пользовательских данных.
+                Собственно говоря, что мы и делаем, как на скринах (есть несколько вариантов их ввода, включая режим
+                авторизации.
+                Какой выбирать? Решать вам...) и жмём на <g>Далее</g>
+            </h4>
+            <img class="img1" src="img/img9.png">
+            <h4>Далее, перед установкой, мы видим полную сводку всех выполненных нами настроек и манипуляций (т.к.
+                сводка длинная, нужно пролистать её, чтобы увидеть всё, что мы с вами делали).
+                И, наконец, после просмотра сводки, жмём на <g>Установить</g>
+            </h4>
+            <img class="img1" src="img/img10.png">
+            <h4>И на предупреждение Установщика, что в случае продолжения установки, Отменить эти изменения будет
+                невозможно, жмём на
+                Притсупить к установке (или Назад, если что-то не так пошло):
+            </h4>
+            <img class="img1" src="img/img11.png">
+            <h4>Ну, и теперь набираемся терпения и ждём окончания Установки:
+            </h4>
+            <img class="img1" src="img/img12.png">
+            <h4>После загрузки и установки всех компонентов системы мы попадаем в окно с информацией об
+                окончании установки Manjaro Linux
+                Где вашаем галочку на Перезагрузить и жмём на Готово:
+            </h4>
+            <img class="img1" src="img/img13.png">
+            <h4>После чего происходит Перезагрузка системы и вход в Загрузчик (GRUB), где, чтобы войти во вновь
+                установленную нами
+                систему Manjaro Linux 21.1.6 Pahvo нажимаем на
+                клавиатуре на <g>Enter</g> или просто ждём 9 сек, ничего не делая, и система автоматически начнёт
+                загружаться:
+            </h4>
+            <img class="img1" src="img/img14.png">
+            <h4>Ну, и по финалу, давайте посмотрим на Интерфейс нашей системы:
+            </h4>
+            <img class="img1" src="img/img15.png">
+            <h1>Конец!</h1>
+        </div>
+        <div class="bottom">
+            <a class="a">Автор: Максим Ситников<br><a class="a">Группа ИС-51</a>
+            </a>
+        </div>
+    </center>
+</body>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #2B2B2B;
+        height: 100%;
+    }
+
+    .header {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 30px;
+        color: white;
+        background-color: #008A71;
+        width: 900px;
+        height: 40px;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .wall {
+        background-color: #555555;
+        width: 900px;
+        max-width: 900px;
+        height: 7800px;
+    }
+
+    .bottom {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        bottom: 0;
+        color: white;
+        text-align: left;
+        background-color: #444444;
+        width: 900px;
+        height: 70px;
+        border-radius: 0px 0px 0 0;
+    }
+
+    .a {
+        margin-left: 20px;
+    }
+
+    .pl {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 25px;
+        color: white;
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    h4 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        color: white;
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    h1 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        margin-left: 20px;
+    }
+
+    .img1 {
+        height: 5%;
+        width: 90%;
+    }
+
+    .img2 {
+        height: 3%;
+        width: 39%;
+    }
+
+    .wa {
+        color: #008A71;
+    }
+
+    .aw:hover {
+        text-decoration: underline;
+    }
+
+    g {
+        color: #008A71;
+    }
+</style>
